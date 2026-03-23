@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit", sans-serif;                     
+    background-color: #0D192C;
+
+}
+.card{
+    background-color: #15263F;
+    width: 350px;
+    border-radius: 15px;
+    padding: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.card__img{
+    border-radius: 8px;
+    width: 100%;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.card__title{
+    font-family: "Outfit", sans-serif; 
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 100%;
+    letter-spacing: 1;
+    margin-bottom: 16px;
+}
+.card__info{
+    font-family: "Outfit", sans-serif; 
+    font-size: 18px;
+    font-weight: 300;
+    color: #8BACD9;
+    line-height: 26px;
+    margin-bottom: 24px;
+    
+}
+
+.box1{
+     border-bottom: 1px solid #2E405A;
+     padding-bottom: 20px;
+     
+}
+
+.box1__arrow{
+width: 11px ;
+vertical-align: top;
+}
+
+.box1_{
+    margin-right:100px ;
+}
+
+.box1__text1
+{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 600 ;
+    color: #00FFF8 ;
+    line-height: 20px;
+    letter-spacing: 1px;
+    
+}
+
+.box1__clock{
+    width: 16px; 
+    height: 16px;
+    vertical-align: text-bottom;
+
+
+}
+.box1__text2{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400 ;
+    color: #8BACD9 ;
+    line-height: 100%;
+    letter-spacing: 1;
+    
+}
+
+.box2{
+
+margin-bottom: 32px;
+padding-top: 16px;
+
+}
+.box2__img{
+   width: 33px;
+   height: 33px;
+   border: 1px solid white;
+   border-radius: 50%;
+   object-fit: contain;
+   vertical-align:middle;
+}
+.box2__text1{
+   font-family: "Outfit", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #8BACD9 ;
+   line-height: 100%;
+   letter-spacing: 1px;
+   margin-left: 16px;
+   
+
+}
+
+.box2__text2{
+   font-family: "Outfit", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #FFFFFF ;
+   line-height: 100%;
+   letter-spacing: 1;
+
+}
